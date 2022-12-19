@@ -1,0 +1,18 @@
+    .topnav {
+        background-color: lightgreen;
+        display: flex;
+        height: 60px;
+        justify-content: flex-end;
+        text-align: center;
+    }
+    
+    li {
+        list-style-type: none;
+        font-size: 25px;
+        margin: 10px;
+    }
+    
+    body {
+        margin: 0%;
+        background-color: beige;
+    }
