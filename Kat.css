@@ -1,18 +1,248 @@
-    .topnav {
-        background-color: lightgreen;
-        display: flex;
-        height: 60px;
-        justify-content: flex-end;
-        text-align: center;
-    }
-    
-    li {
-        list-style-type: none;
-        font-size: 25px;
-        margin: 10px;
-    }
-    
-    body {
-        margin: 0%;
-        background-color: beige;
-    }
+.box {
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    width: 151px;
+    height: 55px;
+    left: 1240px;
+    top: -1331px;
+    background: #58512D;
+    border: 1px solid #58512D;
+    border-radius: 30px;
+}
+
+#resume {
+    position: relative;
+    display: flex;
+    width: 91px;
+    height: 29px;
+    left: 1275px;
+    top: -1460px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#projects {
+    position: relative;
+    width: 93px;
+    height: 29px;
+    left: 930px;
+    top: -1395px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#about {
+    position: relative;
+    width: 111px;
+    height: 29px;
+    left: 730px;
+    top: -1365px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#contact {
+    position: relative;
+    left: 1100px;
+    top: -1425px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    list-style-type: none;
+}
+
+.green {
+    width: 1450px;
+    height: 672px;
+    background: rgba(34, 140, 34, 0.56);
+    position: relative;
+    top: -10px;
+    left: -15px;
+}
+
+.lightgreen {
+    width: 750px;
+    height: 672px;
+    background: rgba(202, 218, 202, 0.48);
+    left: 685px;
+    top: -682px;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+}
+
+#resume a:link {
+    color: white;
+}
+
+a:link {
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+a:visited {
+    color: lightgreen;
+}
+
+#resume a:visited {
+    color: lightgreen;
+}
+
+a:hover {
+    color: red;
+}
+
+#resume a:hover {
+    color: red;
+}
+
+.name {
+    margin: 50px;
+}
+
+#hi {
+    font-size: 40px;
+    transform: translate(0, -1330px);
+    -webkit-transform: translate(0, -1330px);
+    -moz-transform: translate(0, -1330px);
+    -ms-transform: translate(0, -1330px);
+    -o-transform: translate(0, -1330px);
+    padding-bottom: 0;
+    margin-left: 5px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#kat {
+    font-size: 70px;
+    transform: translate(0, -1325px);
+    -webkit-transform: translate(0, -1325px);
+    -moz-transform: translate(0, -1325px);
+    -ms-transform: translate(0, -1325px);
+    -o-transform: translate(0, -1325px);
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 5px;
+}
+
+#web {
+    font-size: 20px;
+    transform: translate(0, -1310px);
+    -webkit-transform: translate(0, -1310px);
+    -moz-transform: translate(0, -1310px);
+    -ms-transform: translate(0, -1310px);
+    -o-transform: translate(0, -1310px);
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 3px;
+    margin-left: 5px;
+}
+
+.latestprojects {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: -960px;
+}
+
+.latestprojects:before,
+.latestprojects:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid;
+    margin: auto;
+}
+
+.latestprojects:before {
+    margin-right: 10px
+}
+
+.latestprojects:after {
+    margin-left: 10px
+}
+
+footer {
+    top: 100px;
+    display: flex;
+    background: rgba(34, 140, 34, 0.56);
+    width: 1450px;
+    height: 200px;
+    position: relative;
+}
+
+#contactme {
+    text-decoration: underline;
+    font-size: 20px;
+    font: 'Inter';
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+#links {
+    text-decoration: underline;
+    font-size: 20px;
+    font: 'Inter';
+    margin-left: 30px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: -100px;
+}
+
+#social {
+    text-decoration: underline;
+    font-size: 20px;
+    font: 'Inter';
+    margin-left: 30px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: right;
+    right: -200px;
+    position: relative;
+}
+
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+p {
+    margin: 80px;
+    font-size: 20px;
+    position: relative;
+    left: -150px;
+}
+
+#con {
+    position: relative;
+    left: -80px;
+}
